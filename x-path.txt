@@ -1,0 +1,10 @@
+APPLE iPhone 14 Pro Max (Gold, 1 TB)
+
+//div[text()'APPLE iPhone 14 Pro Max (Gold, 1 TB)']
+
+
+//div[text()='APPLE iPhone 14 Pro Max (Gold, 1 TB)']
+
+//div[@contains()='APPLE iPhone 14 Pro Max (Gold, 1 TB)']
+
+//div[contains(text(),'Gold' )]

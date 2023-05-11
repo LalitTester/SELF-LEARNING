@@ -1,0 +1,32 @@
+public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        HashMap&lt;Integer,String&gt; map = new HashMap&lt;
+	
+	Integer,String&gt;();
+
+        map.put(2, "Saket");
+
+        map.put(25, "Saurav");
+        map.put(12, "HashMap");
+
+        System.out.println(map.size());      -----------3
+
+        System.out.println("While Loop:"); ---------While Loop
+
+        Iterator itr = map.entrySet().iterator();
+        while(itr.hasNext()) {
+            Map.Entry me = (Map.Entry) itr.next();
+            System.out.println("Key is " + me.getKey() + " Value is " + me.getValue());       key is 2 value is Saket
+											key is 25 value is Surav
+												key is 12 value is Hashmap
+
+        }
+        System.out.println("For Loop:");    //FOR  LOOP
+        for(Map.Entry me2: map.entrySet()) {
+            System.out.println("Key is: " + me2.getKey() + " Value is: " + me2.getValue());
+
+    											key is 2 value is Saket
+											key is 25 value is Surav
+												key is 12 value is Hashmap
+        }
+    }
